@@ -1,0 +1,332 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,700');
+
+
+col-md-6 {
+  width: 50%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+col-12 social padding{
+  width:48px;
+      position:fixed;
+      top:50px;
+      right:0;
+}
+
+footer{
+  background-color: #3f3f3f;
+  color: #d5d5d5;
+  margin-top: 2rem;
+  padding-top: 2rem;
+}
+
+.footer1{
+  display: flex;
+  width: 90%;
+  justify-content: space-evenly;
+  margin-left: 50px;
+  padding-bottom: 50px;
+  border-bottom: 1px solid #ccc;
+}
+
+.cookies{
+  text-align: center;
+}
+
+.footer2{
+  text-align: center;
+  font-size: 18px;
+}
+
+.row{
+  margin-top: 20px;
+}
+
+#frases{
+  width: 100%;
+  height: 720px;
+
+}
+
+.contact-form{
+      background:rgba(0,0,0, .6);
+      color:white;
+      margin-top: 50px;
+      margin-bottom: 50px;
+      padding: 20px;
+      box-shadow: 0px 0px 10px 3px grey;
+    }
+
+.masthead {
+  position: absolute;
+  width: 100%;
+  height: 789px;
+  padding: 15rem 0;
+  background-image: url(https://wallpaperaccess.com/full/541374.jpg);
+  background-size: cover;
+  animation: fadein 2s; 
+}
+.masthead h1 {
+  font-size: 5rem;
+  color: white;
+  line-height: 2.5rem;
+  letter-spacing: 0.8rem;
+  padding-bottom: 30px;
+  
+}
+.masthead h2 {
+  max-width: 20rem;
+  font-size: 1.5rem;
+  color: white;
+}
+
+.centrando{
+  margin-left: 20px;
+}
+
+.botones{
+  margin-left: 25px;
+}
+
+.xoxo{
+  width: 90%;
+  margin-top: 50px;
+}
+
+.ella{
+  width: 90%;
+  margin-left: 65px;
+}
+
+.cierre{
+
+}
+
+.pipi{
+
+}
+
+.final{
+
+}
+
+.agrando{
+
+}
+
+@keyframes fadein {
+  from{
+    opacity: 0;
+  }
+  to{
+    opacity: 1;
+  }
+}
+
+contact-form{
+      background:rgba(0,0,0, .6);
+      color:white;
+      margin-top: 100px;
+      padding: 20px;
+      box-shadow: 0px 0px 10px 3px grey;
+    }
+
+
+
+@media (max-width: 768px) {
+  .display-2{
+  font-size: 60px;
+  margin-left: 320px;
+}
+
+.camu{
+font-size: 17px;
+margin-left: 400px;
+}
+
+.cookies{
+  margin-left: 25px;
+  margin-right: 25px;
+}
+
+.col-md-4{
+  display: flex;
+  width: 50%;
+}
+
+#frases{
+  width: 100%;
+  height: 377px;
+}
+
+.footer1{
+  display: flex;
+  width: 90%;
+  justify-content: space-evenly;
+  margin-left: 20px;
+  padding-bottom: 50px;
+  border-bottom: 1px solid #ccc;
+}
+
+.contact-form{
+      background:rgba(0,0,0, .6);
+      color:white;
+      margin-top: 50px;
+      margin-bottom: 50px;
+      padding: 20px;
+      box-shadow: 0px 0px 10px 3px grey;
+    }
+
+.masthead h1 {
+    font-size: 4rem;
+    line-height: 4rem;
+  }
+
+   .centrando{
+      width: 100%;
+    margin-left: -2px;
+}
+
+.pipi{
+ width: 100%;
+    margin-left: 3px;
+}
+
+h4{
+  
+}
+
+.botones{
+ 
+}
+
+.xoxo{
+    width: 75%;
+    margin-left: 90px;
+    margin-top: -17px;
+    margin-bottom: 25px;
+}
+
+.ella{
+      width: 90%;
+    margin-left: 35px;
+ 
+}
+
+.final{
+  
+}
+
+.agrando{
+  margin-bottom: 30px;
+}
+
+  
+}
+@media (max-width: 576px) {
+  
+.footer2{
+  text-align: center;
+  margin-right: 7px;
+}
+
+.cookies{
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.col-md-4{
+  display: flex;
+  width: 50%;
+}
+
+.display-2{
+  font-size: 40px;
+  margin-left: 210px;
+}
+
+.camu{
+font-size: 17px;
+margin-left: 245px;
+}
+
+#frases{
+  width: 100%;
+  height: 250px;
+}
+
+.contact-form{
+      width: 400px; 
+      background:rgba(0,0,0, .6);
+      color:white;
+      margin-top: 50px;
+      margin-bottom: 50px;
+      padding: 20px;
+      box-shadow: 0px 0px 10px 3px grey;
+    }
+
+  .centrando{
+  margin-right: 25px;
+}
+
+.pipi{
+  width: 101%;
+}
+
+h4{
+  font-size: 17px;
+}
+
+.botones{
+ 
+}
+
+.xoxo{
+    width: 90%;
+    margin-left: 23px;
+    margin-bottom: 20px;
+    margin-top: -10px;
+}
+
+.ella{
+    width: 90%;
+    margin-left: 22px;
+ 
+}
+
+.final{
+  font-size: 25px;
+}
+
+
+}
+
+
+.carousel-item {
+  transition: -webkit-transform 0.5s ease;
+  transition: transform 0.5s ease;
+  transition: transform 0.5s ease, -webkit-transform 0.5s ease;
+  -webkit-backface-visibility: visible;
+  backface-visibility: visible;
+}
+
+figure {
+  position: relative;
+  width: 100%;
+  height: 60%;
+  margin: 0!important;
+}
+
+
+[class*="col-"] {
+    padding: 1rem;
+}
+
+
+
+
+
+
+
